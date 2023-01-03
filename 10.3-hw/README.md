@@ -76,6 +76,8 @@ logging {
 }
 
 
+https://github.com/plusvaldis/srlb-hw/blob/main/files/pace.tar.bz2 - backup config
+
 ---
 
 ### Дополнительные задания (со звездочкой*)
@@ -87,5 +89,8 @@ logging {
 
 Установите и настройте DRBD сервис для настроенного кластера.
 
-*Пришлите  конфигурацию DRBD сервиса - *.res ресурсов для каждой ноды.**
+*Пришлите  конфигурацию DRBD сервиса - *.res ресурсов для каждой ноды.**  
+
+https://github.com/plusvaldis/srlb-hw/blob/main/files/mysql.res  
+https://github.com/plusvaldis/srlb-hw/blob/main/files/www.res
 
