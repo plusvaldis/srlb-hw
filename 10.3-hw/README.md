@@ -41,6 +41,41 @@
 
 *Пришлите конфигурации сервисов для каждой ноды, конфигурационный файл corosync и бэкап конфигурации pacemaker при помощи команды pcs config backup filename.*
 
+totem {
+    version: 2
+    cluster_name: newCluster
+    transport: knet
+    crypto_cipher: aes256
+    crypto_hash: sha256
+}
+
+nodelist {
+    node {
+        ring0_addr: node1
+        name: node1
+        nodeid: 1
+    }
+
+    node {
+        ring0_addr: node2
+        name: node2
+        nodeid: 2
+    }
+}
+
+quorum {
+    provider: corosync_votequorum
+    two_node: 1
+}
+
+logging {
+    to_logfile: yes
+    logfile: /var/log/corosync/corosync.log
+    to_syslog: yes
+    timestamp: on
+}
+
+
 ---
 
 ### Дополнительные задания (со звездочкой*)
@@ -53,3 +88,4 @@
 Установите и настройте DRBD сервис для настроенного кластера.
 
 *Пришлите  конфигурацию DRBD сервиса - *.res ресурсов для каждой ноды.**
+
