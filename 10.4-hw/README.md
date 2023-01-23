@@ -26,6 +26,9 @@
 
 *Пришлите конфигурационные файлы для bacula-dir, bacula-sd,  bacula-fd.*  
 
+- https://github.com/plusvaldis/srlb-hw/blob/main/10.4-hw/conf/bacula-dir.conf  
+- https://github.com/plusvaldis/srlb-hw/blob/main/10.4-hw/conf/bacula-fd.conf  
+- https://github.com/plusvaldis/srlb-hw/blob/main/10.4-hw/conf/bacula-sd.conf  
 
 
 ---
@@ -34,7 +37,11 @@
 
 Установите программное обеспечении Rsync. Настройте синхронизацию на двух нодах. Протестируйте работу сервиса.
 
-*Пришлите рабочую конфигурацию сервера и клиента Rsync.*
+*Пришлите рабочую конфигурацию сервера и клиента Rsync.*  
+
+- https://github.com/plusvaldis/srlb-hw/blob/main/10.4-hw/conf-rsync/backup-node1.sh  
+- https://github.com/plusvaldis/srlb-hw/blob/main/10.4-hw/conf-rsync/rsync.conf  
+![Скриншот-1](https://github.com/plusvaldis/srlb-hw/blob/main/10.4-hw/img/img1.png)
 
 ---
 
