@@ -10,7 +10,7 @@
 
 *Приложите скриншот авторизации в админке.*
 *Приложите текст использованных команд в GitHub.*  
-![Скриншот-1](https://github.com/plusvaldis/srlb-hw/blob/main/9.2-hw/img/img1.png)  
+![Скриншот-1](https://github.com/plusvaldis/srlb-hw/blob/main/9.02-hw/img/img1.png)  
 
 - sudo apt install postgresql  
 - dpkg -i zabbix-release_6.0-4+debian11_all.deb  
@@ -33,9 +33,9 @@
 *Приложите скриншот лога zabbix agent, где видно, что он работает с сервером.*
 *Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.*
 *Приложите текст использованных команд в GitHub.*  
-![Скриншот-2](https://github.com/plusvaldis/srlb-hw/blob/main/9.2-hw/img/img2.png)  
-![Скриншот-3](https://github.com/plusvaldis/srlb-hw/blob/main/9.2-hw/img/img3.png)  
-![Скриншот-4](https://github.com/plusvaldis/srlb-hw/blob/main/9.2-hw/img/img2.png)  
+![Скриншот-2](https://github.com/plusvaldis/srlb-hw/blob/main/9.02-hw/img/img2.png)  
+![Скриншот-3](https://github.com/plusvaldis/srlb-hw/blob/main/9.02-hw/img/img3.png)  
+![Скриншот-4](https://github.com/plusvaldis/srlb-hw/blob/main/9.02-hw/img/img2.png)  
 
 - wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4%2Bdebian11_all.deb  
 - dpkg -i zabbix-release_6.0-4+debian11_all.deb  
