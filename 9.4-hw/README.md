@@ -24,10 +24,10 @@
 Подключите Node Exporter к серверу Prometheus.
 
 *Приложите скриншот конфига из интерфейса Prometheus вкладки Status > Configuration.*  
-![Скриншот-2](https://github.com/plusvaldis/srlb-hw/blob/main/9.4-hw/img/img3.png)  
+![Скриншот-3](https://github.com/plusvaldis/srlb-hw/blob/main/9.4-hw/img/img3.png)  
 
 *Приложите скриншот из интерфейса Prometheus вкладки Status > Targets, чтобы было видно минимум два эндпоинта.*  
-![Скриншот-2](https://github.com/plusvaldis/srlb-hw/blob/main/9.4-hw/img/img4.png)
+![Скриншот-4](https://github.com/plusvaldis/srlb-hw/blob/main/9.4-hw/img/img4.png)
 
 ---
 ## Дополнительные задания со звёздочкой*
@@ -40,7 +40,9 @@
 
 Установите Grafana.
 
-*Приложите скриншот левого нижнего угла интерфейса, чтобы при наведении на иконку пользователя были видны ваши ФИО.*
+*Приложите скриншот левого нижнего угла интерфейса, чтобы при наведении на иконку пользователя были видны ваши ФИО.*  
+
+![Скриншот-5](https://github.com/plusvaldis/srlb-hw/blob/main/9.4-hw/img/img5.png)
 
 ---
 
@@ -48,5 +50,7 @@
 
 Интегрируйте Grafana и Prometheus.
 
-*Приложите скриншот дашборда (ID:11074) с поступающими туда данными из Node Exporter.*
+*Приложите скриншот дашборда (ID:11074) с поступающими туда данными из Node Exporter.*  
+
+![Скриншот-6](https://github.com/plusvaldis/srlb-hw/blob/main/9.4-hw/img/img6.png)
 
